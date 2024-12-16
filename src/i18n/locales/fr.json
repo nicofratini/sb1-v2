@@ -1,0 +1,47 @@
+```json
+{
+  "title": "Simulateur d'Investissement",
+  "input": {
+    "title": "Simulez votre investissement en saisissant un montant initial",
+    "placeholder": "Montant à investir",
+    "calculate": "Calculer",
+    "disclaimer": "Tous les calculs sont basés sur des estimations"
+  },
+  "cycles": {
+    "title": "Durée",
+    "descriptions": {
+      "1": "Un cycle complet",
+      "2": "Réinvestissement automatique",
+      "3": "Triple cycle"
+    }
+  },
+  "results": {
+    "totalReturn": {
+      "title": "Montant récupéré estimé",
+      "description": "Rendement estimé de {{rate}}% sur {{duration}} mois + {{interest}} d'intérêts"
+    },
+    "netGain": {
+      "title": "Gain net estimé",
+      "description": "Rendement total estimé + intérêts - investissement"
+    },
+    "globalRate": {
+      "title": "Taux global estimé",
+      "description": "Performance totale sur {{duration}} mois"
+    },
+    "annualRate": {
+      "title": "Taux annualisé estimé",
+      "description": "Performance annuelle moyenne"
+    }
+  },
+  "settings": {
+    "title": "Paramètres",
+    "duration": {
+      "months": "mois"
+    },
+    "buttons": {
+      "cancel": "Annuler",
+      "save": "Enregistrer"
+    }
+  }
+}
+```

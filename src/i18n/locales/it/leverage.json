@@ -1,0 +1,42 @@
+{
+  "toggle": "Attiva leva finanziaria",
+  "enabled": "Leva finanziaria attivata",
+  "disabled": "Leva finanziaria disattivata",
+  "form": {
+    "baseAmount": "Importo base",
+    "creditAmount": "Importo del credito",
+    "totalAmount": "Importo totale",
+    "ltvRatio": "Ratio LTV (%)",
+    "ltvRatioHelp": "Percentuale di investimento finanziata tramite credito",
+    "creditRate": "Tasso di credito (%)",
+    "creditRateHelp": "Tasso di interesse annuo del credito",
+    "warning": "La leva aumenta sia i potenziali guadagni che i rischi"
+  },
+  "metrics": {
+    "initialAmount": "Importo iniziale",
+    "initialAmountDesc": "Importo di investimento iniziale",
+    "creditAmount": "Credito disponibile",
+    "creditAmountDesc": "Importo massimo di credito accessibile",
+    "grossReturn": "Rendimento lordo",
+    "grossReturnDesc": "Rendimento prima dei costi",
+    "creditCost": "Costo del credito",
+    "creditCostDesc": "Interessi totali del credito",
+    "netReturn": "Rendimento netto",
+    "netReturnDesc": "Rendimento dopo i costi",
+    "returnRate": "Tasso di rendimento",
+    "returnRateDesc": "Tasso di rendimento effettivo"
+  },
+  "chart": {
+    "title": "Evoluzione dell'investimento",
+    "phases": {
+      "initial": "Iniziale",
+      "leverageApplied": "Leva",
+      "returnPhase": "Rendimento"
+    },
+    "legend": {
+      "investmentAmount": "Investimento",
+      "creditAmount": "Credito",
+      "totalAvailable": "Totale disponibile"
+    }
+  }
+}

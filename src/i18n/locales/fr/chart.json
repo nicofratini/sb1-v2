@@ -1,0 +1,31 @@
+{
+  "label": "Mois {{month}}",
+  "unusedFunds": {
+    "title": "Fonds non utilisés",
+    "description": "Montant restant disponible"
+  },
+  "interest": {
+    "title": "Intérêts cumulés",
+    "description": "{{rate}}% par an sur les fonds non utilisés"
+  },
+  "fundCalls": {
+    "title": "Appels de fonds",
+    "description": "Versements échelonnés"
+  },
+  "cashback": {
+    "title": "Retour sur investissement",
+    "description": "Montant final récupéré"
+  },
+  "tooltips": {
+    "unusedFunds": "Fonds disponibles : {{amount}}",
+    "interest": "Intérêts : {{amount}}",
+    "fundCall": "Appel de fonds : {{amount}}",
+    "cycleEnd": "Fin de cycle : {{amount}}",
+    "creditAmount": "Crédit utilisé : {{amount}}"
+  },
+  "legend": {
+    "investmentAmount": "Investissement",
+    "creditAmount": "Crédit",
+    "totalAvailable": "Total disponible"
+  }
+}

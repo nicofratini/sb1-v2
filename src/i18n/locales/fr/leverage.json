@@ -1,0 +1,61 @@
+{
+  "toggle": "Activer le levier financier",
+  "enabled": "Levier financier activé",
+  "disabled": "Levier financier désactivé",
+  "form": {
+    "baseAmount": "Montant de base",
+    "creditAmount": "Montant du crédit",
+    "totalAmount": "Montant total",
+    "ltvRatio": "Ratio LTV (%)",
+    "ltvRatioHelp": "Pourcentage du montant financé par crédit",
+    "creditRate": "Taux du crédit (%)",
+    "creditRateHelp": "Taux d'intérêt annuel du crédit",
+    "warning": "L'effet de levier augmente à la fois le potentiel de gain et le risque de perte"
+  },
+  "metrics": {
+    "initialAmount": "Montant initial",
+    "initialAmountDesc": "Montant de l'investissement initial",
+    "creditAmount": "Crédit disponible",
+    "creditAmountDesc": "Montant maximum de crédit accessible",
+    "grossReturn": "Rendement brut",
+    "grossReturnDesc": "Rendement avant déduction des coûts",
+    "creditCost": "Coût du crédit",
+    "creditCostDesc": "Total des intérêts sur le crédit",
+    "netReturn": "Rendement net",
+    "netReturnDesc": "Rendement après déduction des coûts",
+    "returnRate": "Taux de rendement",
+    "returnRateDesc": "Taux de rendement effectif"
+  },
+  "chart": {
+    "title": "Évolution de l'investissement",
+    "phases": {
+      "initial": "Initial",
+      "leverageApplied": "Effet de levier",
+      "returnPhase": "Rendement"
+    },
+    "legend": {
+      "investmentAmount": "Investissement",
+      "creditAmount": "Crédit",
+      "totalAvailable": "Total disponible"
+    }
+  },
+  "results": {
+    "title": "Résultats avec effet de levier",
+    "summary": {
+      "title": "Synthèse des résultats",
+      "initialInvestment": "Investissement initial",
+      "creditAmount": "Montant du crédit",
+      "grossReturn": "Rendement brut",
+      "creditCost": "Coût du crédit",
+      "netReturn": "Rendement net",
+      "returnRate": "Taux de rendement"
+    }
+  },
+  "validation": {
+    "ratioRange": "Le ratio de levier doit être compris entre 0 et 100%",
+    "positiveRate": "Les taux doivent être supérieurs à 0",
+    "positiveDuration": "La durée doit être un nombre entier positif de mois",
+    "positiveInvestment": "L'investissement initial doit être supérieur à 0",
+    "returnRateHigher": "Le taux de rendement doit être supérieur au taux d'intérêt"
+  }
+}

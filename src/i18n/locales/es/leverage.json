@@ -1,0 +1,42 @@
+{
+  "toggle": "Activar apalancamiento financiero",
+  "enabled": "Apalancamiento financiero activado",
+  "disabled": "Apalancamiento financiero desactivado",
+  "form": {
+    "baseAmount": "Monto base",
+    "creditAmount": "Monto del crédito",
+    "totalAmount": "Monto total",
+    "ltvRatio": "Ratio LTV (%)",
+    "ltvRatioHelp": "Porcentaje de inversión financiado por crédito",
+    "creditRate": "Tasa de crédito (%)",
+    "creditRateHelp": "Tasa de interés anual del crédito",
+    "warning": "El apalancamiento aumenta tanto las ganancias potenciales como los riesgos"
+  },
+  "metrics": {
+    "initialAmount": "Monto inicial",
+    "initialAmountDesc": "Monto de inversión inicial",
+    "creditAmount": "Crédito disponible",
+    "creditAmountDesc": "Monto máximo de crédito accesible",
+    "grossReturn": "Rendimiento bruto",
+    "grossReturnDesc": "Rendimiento antes de costos",
+    "creditCost": "Costo del crédito",
+    "creditCostDesc": "Intereses totales del crédito",
+    "netReturn": "Rendimiento neto",
+    "netReturnDesc": "Rendimiento después de costos",
+    "returnRate": "Tasa de rendimiento",
+    "returnRateDesc": "Tasa de rendimiento efectiva"
+  },
+  "chart": {
+    "title": "Evolución de la inversión",
+    "phases": {
+      "initial": "Inicial",
+      "leverageApplied": "Apalancamiento",
+      "returnPhase": "Rendimiento"
+    },
+    "legend": {
+      "investmentAmount": "Inversión",
+      "creditAmount": "Crédito",
+      "totalAvailable": "Total disponible"
+    }
+  }
+}

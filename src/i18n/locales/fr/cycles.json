@@ -1,0 +1,28 @@
+{
+  "title": "Durée d'investissement",
+  "descriptions": {
+    "1": "Un cycle complet de rendement",
+    "2": "Réinvestissement automatique",
+    "3": "Triple cycle de rendement"
+  },
+  "details": {
+    "title": "Détail des cycles d'investissement",
+    "cycleNumber": "Cycle {{number}}",
+    "initialAmount": "Montant initial",
+    "finalAmount": "Montant final",
+    "netGain": "Gain net",
+    "unusedFundsInterest": "Intérêts sur fonds non utilisés",
+    "creditUsed": "Crédit utilisé",
+    "leveragedAmount": "Montant avec effet de levier",
+    "grossReturn": "Rendement brut",
+    "creditCost": "Coût du crédit"
+  },
+  "metrics": {
+    "totalNetGain": "Gain net total",
+    "unusedFundsInterest": "Intérêts sur fonds non utilisés",
+    "averageReturn": "Rendement moyen",
+    "totalReturn": "Rendement total",
+    "totalCreditCost": "Coût total du crédit",
+    "effectiveRate": "Taux effectif"
+  }
+}

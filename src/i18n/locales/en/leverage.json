@@ -1,0 +1,61 @@
+{
+  "toggle": "Enable Financial Leverage",
+  "enabled": "Financial leverage enabled",
+  "disabled": "Financial leverage disabled",
+  "form": {
+    "baseAmount": "Base Amount",
+    "creditAmount": "Credit Amount",
+    "totalAmount": "Total Amount",
+    "ltvRatio": "LTV Ratio (%)",
+    "ltvRatioHelp": "Percentage of investment financed by credit",
+    "creditRate": "Credit Rate (%)",
+    "creditRateHelp": "Annual interest rate on credit",
+    "warning": "Leverage increases both potential gains and risks"
+  },
+  "metrics": {
+    "initialAmount": "Initial Amount",
+    "initialAmountDesc": "Initial investment amount",
+    "creditAmount": "Available Credit",
+    "creditAmountDesc": "Maximum accessible credit amount",
+    "grossReturn": "Gross Return",
+    "grossReturnDesc": "Return before costs",
+    "creditCost": "Credit Cost",
+    "creditCostDesc": "Total credit interest",
+    "netReturn": "Net Return",
+    "netReturnDesc": "Return after costs",
+    "returnRate": "Return Rate",
+    "returnRateDesc": "Effective return rate"
+  },
+  "chart": {
+    "title": "Investment Evolution",
+    "phases": {
+      "initial": "Initial",
+      "leverageApplied": "Leverage",
+      "returnPhase": "Return"
+    },
+    "legend": {
+      "investmentAmount": "Investment",
+      "creditAmount": "Credit",
+      "totalAvailable": "Total Available"
+    }
+  },
+  "results": {
+    "title": "Leverage Results",
+    "summary": {
+      "title": "Results Summary",
+      "initialInvestment": "Initial Investment",
+      "creditAmount": "Credit Amount",
+      "grossReturn": "Gross Return",
+      "creditCost": "Credit Cost",
+      "netReturn": "Net Return",
+      "returnRate": "Return Rate"
+    }
+  },
+  "validation": {
+    "ratioRange": "Leverage ratio must be between 0 and 100%",
+    "positiveRate": "Rates must be greater than 0",
+    "positiveDuration": "Duration must be a positive number of months",
+    "positiveInvestment": "Initial investment must be greater than 0",
+    "returnRateHigher": "Return rate must be higher than interest rate"
+  }
+}
